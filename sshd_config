@@ -32,7 +32,7 @@ LogLevel VERBOSE
 # Authentication:
 
 LoginGraceTime 1m
-PermitRootLogin yes
+PermitRootLogin no
 #StrictModes yes
 MaxAuthTries 3
 #MaxSessions 10
@@ -102,7 +102,7 @@ ClientAliveInterval 600
 ClientAliveCountMax 0
 #UseDNS no
 #PidFile /var/run/sshd.pid
-MaxStartups 100
+MaxStartups 10
 #PermitTunnel no
 #ChrootDirectory none
 #VersionAddendum none
