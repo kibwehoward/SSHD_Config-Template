@@ -1,1 +1,1 @@
-# sshd_conffig
+# sshd_config
